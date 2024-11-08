@@ -2,6 +2,7 @@
 
 This is a Flask web application created to provide support and resources for disabled individuals dealing with mental health challenges, self-harm, and substance misuse. The site includes an informative homepage and contact information for those seeking assistance or wanting to volunteer.
 
+- Project debrief is available in debrief.pdf
 
 ## Prerequisites
 

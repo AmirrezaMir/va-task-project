@@ -54,7 +54,3 @@ Before you start, ensure you have the following installed:
 3. **Access the app**:
 
    Open your browser and go to: [http://127.0.0.1:1234](http://127.0.0.1:1234)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).

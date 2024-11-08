@@ -13,8 +13,8 @@ Before you start, ensure you have the following installed:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/yourrepositoryname.git
-    cd yourrepositoryname
+    git clone https://github.com/AmirrezaMir/va-task-project.git
+    cd va-task-project
     ```
 
 2. **Set up a virtual environment**:

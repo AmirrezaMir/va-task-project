@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="about-contact">
+            <h2>About Us & Contact</h2>
+            <div class="intro-text">
+                <p>At <strong>Safe Journey Society</strong>, we are a passionate volunteer organization dedicated to empowering and supporting individuals with disabilities who face unique challenges related to mental health, self-harm, and substance use. We believe that no one should have to navigate these obstacles alone, and our mission is to provide empathetic, personalized support that respects each individual’s journey. By connecting people to accessible therapy options, emotional support, and helpful resources, we strive to create a safe and understanding environment for those seeking to build resilience and well-being. We recognize the importance of community in overcoming isolation, and our volunteers are here to help, no matter the circumstance.</p>
+        
+                <p>Our team is committed to fostering a space where every individual feels valued, heard, and understood. We offer compassionate guidance tailored to the needs of those we serve, creating a support system that honors their strengths and supports their goals. Whether through one-on-one interactions, group support, or connections to professional resources, we’re here to stand beside you. At <strong>Safe Journey Society</strong>, we know that healing is a journey best traveled together—and we are here to walk it with you every step of the way.</p>
+            </div>
+            <div class="contact-info">
+                <p><strong>Contact Us:</strong></p>
+                <p>Email: <a href="mailto:contact@sjs.org">contact@sjs.org</a></p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Lane, City, State, ZIP</p>
+            </div>
+        </section>
+        
+    </main>
+    
+
+</body>
+</html>
